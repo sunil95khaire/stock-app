@@ -1,0 +1,12 @@
+thead {
+    color: #337AB7;
+    background-color: lavender;
+}
+
+.negative-stock{
+    background-color: red;    
+}
+
+.positive-stock{
+    background-color: green;    
+}

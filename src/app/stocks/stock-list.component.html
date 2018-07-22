@@ -1,0 +1,35 @@
+<div class='container'>
+  <div class='row' style="margin-top: 3vmax">
+    <div class='col-md-3 form-group' style="margin-left: 1em;">
+      <label class="control-label">Symbol Search</label>
+      <input class="form-control" type='text' [(ngModel)]='filterBy' />
+    </div>
+    <div class='col-md-2'>
+      <input type='button' value="Search" class="btn btn-primary" style="margin-top: 2em;" (click)="SearchStock()" />
+    </div>
+  </div>
+
+  <div class=' col-md-12 table-responsive'>
+    <table class='table table-bordered' *ngIf='stocks && stocks.length'>
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Value Date</th>
+          <th>Opening Price</th>
+          <th>Currenct Price</th>
+          <th>%Change</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor='let stock of filteredStocks'>
+          <td>{{ stock.symbol | uppercase }}</td>
+          <td>{{ stock.valueDate | date: 'dd/MM/yyyy' }}</td>
+          <td>{{ stock.openingPrice | number : '1.2-2'  }}</td>
+          <td>{{ stock.currentPrice | number : '1.2-2' }}</td>
+          <td class="{{ stock.stockStatus }}">{{ stock.percentChange | number : '1.2-2' }} %</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>

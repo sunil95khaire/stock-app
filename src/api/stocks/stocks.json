@@ -1,0 +1,51 @@
+[
+    {
+        "symbol": "ABC",
+        "valueDate": "Jul 03, 2018",
+        "openingPrice": 19.95,
+        "currentPrice": 9.95,
+        "percentChange": 1.95
+    },
+    {
+        "symbol": "EFG",
+        "valueDate": "Jul 03, 2018",
+        "openingPrice": 19.95,
+        "currentPrice": 9.95,
+        "percentChange": 1.95
+    },
+    {
+        "symbol": "FGH",
+        "valueDate": "Jul 03, 2018",
+        "openingPrice": 19.95,
+        "currentPrice": 15.95,
+        "percentChange": 1.95
+    },
+    {
+        "symbol": "HJY",
+        "valueDate": "Jul 03, 2018",
+        "openingPrice": 19.95,
+        "currentPrice": 21.95,
+        "percentChange": 1.95
+    },
+    {
+        "symbol": "QWE",
+        "valueDate": "Jul 03, 2018",
+        "openingPrice": 19.95,
+        "currentPrice": 18.95,
+        "percentChange": 1.95
+    },
+    {
+        "symbol": "PQR",
+        "valueDate": "Jul 03, 2018",
+        "openingPrice": 19.95,
+        "currentPrice": 18.95,
+        "percentChange": 1.95
+    },
+    {
+        "symbol": "TGH",
+        "valueDate": "Jul 03, 2018",
+        "openingPrice": 19.95,
+        "currentPrice": 19.95,
+        "percentChange": 1.95
+    }
+]
